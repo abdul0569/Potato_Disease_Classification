@@ -10,7 +10,6 @@ import requests
 app = FastAPI()
 
 MODEL = tf.keras.models.load_model("../saved_models/1")
-
 prod_model = tf.keras.models.load_model("../saved_models/1")
 beta_model = tf.keras.models.load_model("../saved_models/2")
 
